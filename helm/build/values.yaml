@@ -1,0 +1,15 @@
+app:
+  name: long12345678901234567890-poi-gateway-app
+  namespace: long12345678901234567890
+  cluster: .apps.j0i9yf30.eastus2.aroapp.io
+
+git:
+  branch: main
+  repo: https://github.com/rhdh-atl/long12345678901234567890-gateway
+  org: rhdh-atl
+  name: long12345678901234567890-gateway
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: long12345678901234567890/poi-gateway-app
+  tag: latest
